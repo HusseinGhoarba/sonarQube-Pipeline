@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'jenkins-ubuntu-slave' }
+    agent { label 'jenkins-slave' }
     stages {
         stage('sonarqube'){
             steps {
